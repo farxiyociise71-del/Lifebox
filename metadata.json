@@ -1,0 +1,7 @@
+{
+  "name": "LIFEBOX",
+  "description": "Your phone's second brain — save anything, organize effortlessly, search with multimodal AI, and remember what matters.",
+  "requestFramePermissions": ["camera", "microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+

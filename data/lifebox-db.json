@@ -1,0 +1,274 @@
+{
+  "users": [
+    {
+      "id": "user-fbe9da7f94da3eea",
+      "email": "user-1789783920113@lifebox.internal",
+      "name": "Alex Chen",
+      "passwordHash": "f0a6a933408f612bb4f2d50bddc857a48e258085a3f5a4c492fecb6aa065cda1e993b893930f62a07e7bbc6a7309202952990e88a1b5a441a7cf4ad63a7ae9a3",
+      "passwordSalt": "c8b970b0fd972c1ddc0f166db7e22f26",
+      "pinHash": "e672b1c4476908b52a8ebebb71a37f0464479742ad93585a9b1850bbf3840596",
+      "pinSalt": "6a58e12678d7c5fe36a22e620333a814",
+      "isPinRequiredForLocked": true,
+      "isPinProtected": true,
+      "aiSummariesEnabled": true,
+      "autoOcrEnabled": true,
+      "autoTagEnabled": true,
+      "minimizeAiData": true,
+      "theme": "light",
+      "createdAt": "2026-09-19T02:12:01.626Z",
+      "updatedAt": "2026-09-19T02:12:01.626Z"
+    },
+    {
+      "id": "user-863c5007cb9eea00",
+      "email": "user-1789783920614@lifebox.internal",
+      "name": "Alex Chen",
+      "passwordHash": "a116b298291f7eaa4765d288ba4547a8361eba85c5a6ee35aa62ff3662c3a823c6a984d2750bb525029c4d06e6ac5fbf02867e340e178bff221121a6462a59bf",
+      "passwordSalt": "783a76fa339d4b39be16169149ef802b",
+      "pinHash": "b4cd94bb3dcc7688c9e5df9aef77b92b4ea9a1e24c164aae002be721942b7cc4",
+      "pinSalt": "08d0a58376d9bb05d0e8c0c5fca65ccb",
+      "isPinRequiredForLocked": true,
+      "isPinProtected": true,
+      "aiSummariesEnabled": true,
+      "autoOcrEnabled": true,
+      "autoTagEnabled": true,
+      "minimizeAiData": true,
+      "theme": "light",
+      "createdAt": "2026-09-19T02:12:02.100Z",
+      "updatedAt": "2026-09-19T02:12:02.100Z"
+    }
+  ],
+  "sessions": [
+    {
+      "id": "sess-2623abb0d8b7701a",
+      "token": "ed81d06285882eb8f000c2f5d5f5fcb728092207a00066bf59a0802f3f6e9c42",
+      "userId": "user-fbe9da7f94da3eea",
+      "ip": "102.223.191.209",
+      "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Mobile Safari/537.36",
+      "browser": "Mobile Browser",
+      "os": "Linux",
+      "createdAt": "2026-09-19T02:12:01.627Z",
+      "lastActiveAt": "2026-09-19T02:12:02.104Z",
+      "expiresAt": "2026-10-19T02:12:01.627Z"
+    },
+    {
+      "id": "sess-8621f710dcecafaa",
+      "token": "69375bf0ad3e916e0db7eef9a804cb2b5c2f0644fa290f9e342a01e3de95d911",
+      "userId": "user-863c5007cb9eea00",
+      "ip": "102.223.191.209",
+      "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Mobile Safari/537.36",
+      "browser": "Mobile Browser",
+      "os": "Linux",
+      "createdAt": "2026-09-19T02:12:02.100Z",
+      "lastActiveAt": "2026-09-19T02:12:03.724Z",
+      "expiresAt": "2026-10-19T02:12:02.100Z"
+    }
+  ],
+  "items": [
+    {
+      "id": "note-1",
+      "userId": "test-user-42",
+      "title": "Science Revision",
+      "type": "note",
+      "category": "ideas",
+      "collectionIds": [],
+      "content": "Krebs cycle and cellular respiration summary notes.",
+      "tags": [
+        "biology",
+        "exam"
+      ],
+      "createdAt": "2026-09-19T02:20:00.501Z",
+      "updatedAt": "2026-09-19T02:20:00.546Z",
+      "isTrash": true
+    },
+    {
+      "id": "note-2",
+      "userId": "test-user-42",
+      "title": "Grocery List",
+      "type": "note",
+      "category": "personal",
+      "collectionIds": [],
+      "content": "Oat milk, avocados, bananas, sourdough bread.",
+      "tags": [
+        "food"
+      ],
+      "createdAt": "2026-09-19T02:20:00.502Z",
+      "updatedAt": "2026-09-19T02:20:00.502Z"
+    },
+    {
+      "id": "note-3",
+      "userId": "test-user-42",
+      "title": "Friend Birthday",
+      "type": "note",
+      "category": "personal",
+      "collectionIds": [],
+      "content": "22 September is my friend's birthday.",
+      "tags": [
+        "events"
+      ],
+      "createdAt": "2026-09-19T02:20:00.502Z",
+      "updatedAt": "2026-09-19T02:20:00.502Z"
+    }
+  ],
+  "collections": [],
+  "conversations": [
+    {
+      "id": "conv-1789783925729-pbx5g",
+      "userId": "guest_user",
+      "title": "New Chat",
+      "mode": "chat",
+      "turns": [],
+      "createdAt": "2026-09-19T02:12:05.729Z",
+      "updatedAt": "2026-09-19T02:12:05.729Z"
+    },
+    {
+      "id": "conv-1789783926160-n7ow3",
+      "userId": "guest_user",
+      "title": "New Chat",
+      "mode": "chat",
+      "turns": [
+        {
+          "id": "msg-u-1789783951775",
+          "role": "user",
+          "text": "Hi",
+          "timestamp": "02:12 AM"
+        },
+        {
+          "id": "msg-a-1789783951775",
+          "role": "assistant",
+          "text": "Hi! What are you working on today?",
+          "intent": "GENERAL_CHAT",
+          "mode": "lifebox",
+          "sources": [],
+          "matchedItemIds": [],
+          "actions": [],
+          "thoughtSteps": [
+            "Natural casual greeting without boilerplate"
+          ],
+          "suggestedFollowUps": [
+            "I'm bored",
+            "I want to start a project",
+            "Can we brainstorm?"
+          ],
+          "timestamp": "02:12 AM"
+        },
+        {
+          "id": "msg-u-1789783956942",
+          "role": "user",
+          "text": "I'm bored",
+          "timestamp": "02:12 AM"
+        },
+        {
+          "id": "msg-a-1789783956942",
+          "role": "assistant",
+          "text": "I couldn't find anything about \"bored\" in your LIFEBOX.",
+          "intent": "PERSONAL_DATA_SEARCH",
+          "mode": "lifebox",
+          "sources": [],
+          "matchedItemIds": [],
+          "actions": [],
+          "thoughtSteps": [
+            "Searched 2 records",
+            "Found no matches"
+          ],
+          "suggestedFollowUps": [
+            "Show all my notes",
+            "Save a note about this"
+          ],
+          "timestamp": "02:12 AM"
+        },
+        {
+          "id": "msg-u-1789783964340",
+          "role": "user",
+          "text": "Show all my notes",
+          "timestamp": "02:12 AM"
+        },
+        {
+          "id": "msg-a-1789783964340",
+          "role": "assistant",
+          "text": "I couldn't find anything about \"show all\" in your LIFEBOX.",
+          "intent": "PERSONAL_DATA_SEARCH",
+          "mode": "lifebox",
+          "sources": [],
+          "matchedItemIds": [],
+          "actions": [],
+          "thoughtSteps": [
+            "Searched 2 records",
+            "Found no matches"
+          ],
+          "suggestedFollowUps": [
+            "Show all my notes",
+            "Save a note about this"
+          ],
+          "timestamp": "02:12 AM"
+        },
+        {
+          "id": "msg-u-1789784108215",
+          "role": "user",
+          "text": "Save a note about this",
+          "timestamp": "02:15 AM"
+        },
+        {
+          "id": "msg-a-1789784108215",
+          "role": "assistant",
+          "text": "You already have a note saved in your LIFEBOX: \"22_september is my friend's birthday 🎂\". \n\nYour friend's birthday is September 22, which is three days from today.",
+          "intent": "PERSONAL_DATA_SEARCH",
+          "mode": "lifebox",
+          "sources": [
+            {
+              "id": "item-1789754793660",
+              "title": "New NOTE",
+              "type": "note",
+              "category": "personal",
+              "date": "Sep 18, 2026",
+              "snippet": "22_september is my friend's birthday 🎂"
+            },
+            {
+              "id": "item-1789754784796",
+              "title": "New NOTE",
+              "type": "note",
+              "category": "personal",
+              "date": "Sep 18, 2026",
+              "snippet": "22_september is my friend's birthday 🎂"
+            }
+          ],
+          "matchedItemIds": [
+            "item-1789754793660",
+            "item-1789754784796"
+          ],
+          "actions": [],
+          "thoughtSteps": [
+            "Identified 2 matching records in LIFEBOX repository",
+            "Synthesized grounded answer with date calculations"
+          ],
+          "suggestedFollowUps": [
+            "Show this note",
+            "Summarize my recent notes"
+          ],
+          "timestamp": "02:15 AM"
+        }
+      ],
+      "createdAt": "2026-09-19T02:12:06.160Z",
+      "updatedAt": "2026-09-19T02:15:08.215Z"
+    }
+  ],
+  "auditLogs": [
+    {
+      "userId": "user-863c5007cb9eea00",
+      "eventType": "LOGIN",
+      "ip": "102.223.191.209",
+      "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Mobile Safari/537.36",
+      "details": "User registered and logged in with new session.",
+      "id": "audit-81caeb907d24",
+      "timestamp": "2026-09-19T02:12:02.101Z"
+    },
+    {
+      "userId": "user-fbe9da7f94da3eea",
+      "eventType": "LOGIN",
+      "ip": "102.223.191.209",
+      "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Mobile Safari/537.36",
+      "details": "User registered and logged in with new session.",
+      "id": "audit-2c2d95ba0ca2",
+      "timestamp": "2026-09-19T02:12:01.627Z"
+    }
+  ]
+}
