@@ -34,7 +34,10 @@ export class ApiService {
       headers['Authorization'] = `Bearer ${this.token}`;
     }
 
-    const res = await fetch(endpoint, {
+    const baseUrl = (import.meta.env.VITE_API_BASE_URL || '').replace(/\/$/, '');
+    const url = endpoint.startsWith('http') ? endpoint : `${baseUrl}${endpoint}`;
+
+    const res = await fetch(url, {
       ...options,
       headers,
     });

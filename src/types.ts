@@ -361,7 +361,8 @@ export interface AgentAction {
     | 'open_item'
     | 'analyze_scan'
     | 'confirm_delete'
-    | 'tag_item';
+    | 'tag_item'
+    | 'open_scanner';
   label: string;
   executed?: boolean;
   payload: {
